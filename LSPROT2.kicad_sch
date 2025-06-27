@@ -879,7 +879,7 @@
 		)
 		(uuid "fdd6f959-d161-49de-9514-8e462a5ceb01")
 	)
-	(hierarchical_label "IN1"
+	(hierarchical_label "IN2"
 		(shape input)
 		(at 187.96 88.9 0)
 		(effects
@@ -901,7 +901,7 @@
 		)
 		(uuid "a3996bb9-fa4f-4f06-9f89-1d79443719f9")
 	)
-	(hierarchical_label "IN2"
+	(hierarchical_label "IN1"
 		(shape input)
 		(at 187.96 93.98 0)
 		(effects

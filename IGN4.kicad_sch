@@ -811,7 +811,7 @@
 		)
 		(uuid "555f6620-7095-4060-abbb-7247cdbe84cb")
 	)
-	(hierarchical_label "OUT1"
+	(hierarchical_label "OUT4"
 		(shape output)
 		(at 120.65 72.39 180)
 		(effects
@@ -822,7 +822,7 @@
 		)
 		(uuid "4c42d242-f8dd-4e91-bd78-a464ecb159f8")
 	)
-	(hierarchical_label "IN4"
+	(hierarchical_label "IN1"
 		(shape input)
 		(at 198.12 105.41 0)
 		(effects
@@ -833,7 +833,7 @@
 		)
 		(uuid "841444ea-1b09-4bd6-89ff-571125b81c3c")
 	)
-	(hierarchical_label "OUT4"
+	(hierarchical_label "OUT1"
 		(shape output)
 		(at 167.64 100.33 180)
 		(effects
@@ -844,7 +844,7 @@
 		)
 		(uuid "a059cc97-2de7-4017-8b2a-c178fa673275")
 	)
-	(hierarchical_label "IN1"
+	(hierarchical_label "IN4"
 		(shape input)
 		(at 151.13 77.47 0)
 		(effects
@@ -855,7 +855,7 @@
 		)
 		(uuid "a9f0e471-0abc-4413-a6f6-b59ac2e4c486")
 	)
-	(hierarchical_label "IN2"
+	(hierarchical_label "IN3"
 		(shape input)
 		(at 151.13 105.41 0)
 		(effects
@@ -866,7 +866,7 @@
 		)
 		(uuid "ac2c397e-bb0a-4c9c-868a-29b508996255")
 	)
-	(hierarchical_label "OUT2"
+	(hierarchical_label "OUT3"
 		(shape output)
 		(at 120.65 100.33 180)
 		(effects
@@ -877,7 +877,7 @@
 		)
 		(uuid "b11d862b-f1d2-4bab-a8fb-acb4bb0152c3")
 	)
-	(hierarchical_label "OUT3"
+	(hierarchical_label "OUT2"
 		(shape output)
 		(at 167.64 72.39 180)
 		(effects
@@ -888,7 +888,7 @@
 		)
 		(uuid "bcf4a1ee-7190-46a7-96e5-5cda0b1eb073")
 	)
-	(hierarchical_label "IN3"
+	(hierarchical_label "IN2"
 		(shape input)
 		(at 198.12 77.47 0)
 		(effects
