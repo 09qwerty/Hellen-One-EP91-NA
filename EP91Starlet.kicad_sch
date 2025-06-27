@@ -4925,6 +4925,126 @@
 				)
 			)
 		)
+		(symbol "misc:+12V_RAW"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V_RAW"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_RAW_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_RAW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12V_RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -6423,6 +6543,12 @@
 		(uuid "30b557a3-3208-4e3e-9d96-d8bf0bc78cb9")
 	)
 	(junction
+		(at 86.36 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65fbf810-1793-4d8d-8621-efdbd81e46e9")
+	)
+	(junction
 		(at 95.25 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6984,7 +7110,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 195.58) (xy 76.2 195.58)
+			(xy 88.9 195.58) (xy 86.36 195.58)
 		)
 		(stroke
 			(width 0)
@@ -7384,6 +7510,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 195.58) (xy 76.2 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d93780-9d4b-41ba-a774-1806521bd920")
+	)
+	(wire
+		(pts
 			(xy 175.26 254) (xy 88.9 254)
 		)
 		(stroke
@@ -7733,7 +7869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vrmax:vr-max9924"
+		(property "Footprint" "vrmax9924:vr-max9924"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -8071,7 +8207,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mega_mcu144:mega-mcu144"
+		(property "Footprint" "megamcu144:mega-mcu144"
 			(at 175.26 25.4 0)
 			(effects
 				(font
@@ -8568,6 +8704,72 @@
 			(project ""
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "misc:+12V_RAW")
+		(at 86.36 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f4ffb8f-cb61-4c26-aafe-0a16866ae46d")
+		(property "Reference" "#PWR38"
+			(at 86.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_RAW"
+			(at 86.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
+			(at 86.36 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2b0e1a7-947d-4c3e-89f2-f7846d20e838")
+		)
+		(instances
+			(project ""
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -9128,7 +9330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vrmax:vr-max9924"
+		(property "Footprint" "vrmax9924:vr-max9924"
 			(at 120.65 156.21 0)
 			(effects
 				(font
