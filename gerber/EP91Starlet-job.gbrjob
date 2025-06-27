@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.9-8.0.9-0~ubuntu24.04.1"
     },
-    "CreationDate": "2025-06-27T01:28:59+00:00"
+    "CreationDate": "2025-06-27T08:15:53+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -36,7 +36,6 @@
       "PadToPad": 0.16,
       "PadToTrack": 0.16,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
     }

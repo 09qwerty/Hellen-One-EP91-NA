@@ -8,6 +8,7 @@
 "50mA","F3","Fuse:Fuse_0603_1608Metric","C369141"
 "50mA","F4","Fuse:Fuse_0603_1608Metric","C369141"
 "Conn_02x04_Top_Bottom","J1","Connector_Molex:Molex_Mini-Fit_Jr_5569-08A2_2x04_P4.20mm_Horizontal",""
+"Conn_02x03_Top_Bottom","J2","Connector_Molex:Molex_Mini-Fit_Jr_5569-06A2_2x03_P4.20mm_Horizontal",""
 "Module-vr-max9924-0.1","M1","vrmax9924:vr-max9924",""
 "Module-mega-mcu144-0.7","M2","megamcu144:mega-mcu144",""
 "Module-knock-0.2","M3","knock:knock",""
