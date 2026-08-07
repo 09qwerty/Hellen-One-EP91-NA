@@ -4231,28 +4231,48 @@
 				)
 			)
 		)
-		(symbol "VNLD5090-E:VNLD5090-E"
+		(symbol "VNLD5160-E:VNLD5160TR-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -0.254 5.334 0)
+			(property "Reference" "IC1"
+				(at 14.605 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 1.27 0)
+			(property "Value" "VNLD5160-E"
+				(at 14.605 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -2.54 1.27 0)
+			(property "Footprint" "SOIC127P600X175-8N"
+				(at 39.37 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+				(at 39.37 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+				(at 10.922 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4260,40 +4280,70 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -2.54 1.27 0)
+			(property "Height" "1.75"
+				(at 39.37 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at -2.54 1.27 0)
+			(property "Mouser Part Number" "511-VNLD5160TR-E"
+				(at 39.37 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "VNLD5090-E_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+				(at 39.37 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 39.37 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+				(at 39.37 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "VNLD5160TR-E_1_1"
 				(rectangle
-					(start -10.16 3.81)
-					(end 8.89 -6.35)
+					(start 5.08 1.27)
+					(end 24.13 -8.89)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "VNLD5090-E_1_1"
-				(pin input line
-					(at 11.43 -5.08 180)
+				(pin passive line
+					(at 2.54 0 0)
 					(length 2.54)
 					(name "IN1"
 						(effects
@@ -4310,8 +4360,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 11.43 -2.54 180)
+				(pin passive line
+					(at 2.54 -2.54 0)
 					(length 2.54)
 					(name "S1"
 						(effects
@@ -4328,8 +4378,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 11.43 0 180)
+				(pin passive line
+					(at 2.54 -5.08 0)
 					(length 2.54)
 					(name "IN2"
 						(effects
@@ -4346,8 +4396,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at 11.43 2.54 180)
+				(pin passive line
+					(at 2.54 -7.62 0)
 					(length 2.54)
 					(name "S2"
 						(effects
@@ -4364,8 +4414,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 2.54 0)
+				(pin passive line
+					(at 26.67 -7.62 180)
 					(length 2.54)
 					(name "SOURCE2"
 						(effects
@@ -4382,8 +4432,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 0 0)
+				(pin passive line
+					(at 26.67 -5.08 180)
 					(length 2.54)
 					(name "DRAIN2"
 						(effects
@@ -4400,8 +4450,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
+				(pin passive line
+					(at 26.67 -2.54 180)
 					(length 2.54)
 					(name "SOURCE1"
 						(effects
@@ -4418,8 +4468,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -5.08 0)
+				(pin passive line
+					(at 26.67 0 180)
 					(length 2.54)
 					(name "DRAIN1"
 						(effects
@@ -10704,10 +10754,16 @@
 		(uuid "044c0e09-e286-476d-b701-5bf2afd50674")
 	)
 	(junction
-		(at 40.64 139.7)
+		(at 320.04 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0600dd92-1444-459f-a0c4-bf068ddc7b83")
+		(uuid "0b93bd26-7b22-4bfa-95eb-52d73f5c32b8")
+	)
+	(junction
+		(at 38.1 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c298c8-e15d-432c-af60-7298b1c6847b")
 	)
 	(junction
 		(at 72.39 139.7)
@@ -10770,6 +10826,12 @@
 		(uuid "522c2003-570f-4971-bfa5-af0d169624c9")
 	)
 	(junction
+		(at 40.64 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "527bba0b-641b-4757-a727-fff13073b75d")
+	)
+	(junction
 		(at 270.51 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10785,19 +10847,7 @@
 		(at 372.11 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e384442-36ed-44e7-9e07-0deb694827f7")
-	)
-	(junction
-		(at 372.11 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61611bbf-2728-4e93-9500-96ededae84ca")
-	)
-	(junction
-		(at 38.1 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71549828-47bb-4450-8a47-4ec722b4135c")
+		(uuid "649396c1-10bf-4213-8080-57e2a7936626")
 	)
 	(junction
 		(at 382.27 92.71)
@@ -10810,12 +10860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83e8c77f-9b2a-4ead-8058-57169a0cd815")
-	)
-	(junction
-		(at 40.64 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "890a0ea7-57a2-43f8-8da2-9573117db33f")
 	)
 	(junction
 		(at 69.85 189.23)
@@ -10840,6 +10884,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b38c3d0-3da5-47fc-998f-550101decc19")
+	)
+	(junction
+		(at 40.64 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e26724-a729-47bd-81df-b81fc34671a2")
+	)
+	(junction
+		(at 38.1 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa506cf8-d7e7-4074-88bf-326f13bdee26")
 	)
 	(junction
 		(at 382.27 105.41)
@@ -10884,10 +10940,10 @@
 		(uuid "f019930a-8320-48f8-bf37-08b522bdd928")
 	)
 	(junction
-		(at 38.1 189.23)
+		(at 372.11 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f111a299-fa23-40f5-bb78-1e415b9fd636")
+		(uuid "f325501d-d928-4fd5-9ac8-fcd595d946c9")
 	)
 	(junction
 		(at 78.74 194.31)
@@ -10910,6 +10966,10 @@
 	(no_connect
 		(at 190.5 180.34)
 		(uuid "05838017-c06d-4d34-ad29-d107340159ec")
+	)
+	(no_connect
+		(at 208.28 243.84)
+		(uuid "0c262ba7-ebad-44b0-b323-8e0615038977")
 	)
 	(no_connect
 		(at 71.12 137.16)
@@ -10974,6 +11034,10 @@
 	(no_connect
 		(at 346.71 226.06)
 		(uuid "8ee3a3a1-5e50-42ee-a7bc-fc23c4f65323")
+	)
+	(no_connect
+		(at 264.16 -5.08)
+		(uuid "91a96b55-dd84-4fe5-ad21-6f101df6e2ea")
 	)
 	(no_connect
 		(at 252.73 99.06)
@@ -11043,6 +11107,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 144.78) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041e0dd8-0b6e-48ad-a568-1ed682e1a9b4")
+	)
+	(wire
+		(pts
 			(xy 137.16 87.63) (xy 138.43 87.63)
 		)
 		(stroke
@@ -11050,16 +11124,6 @@
 			(type default)
 		)
 		(uuid "05280901-1c22-48a1-93d2-fd178ab41710")
-	)
-	(wire
-		(pts
-			(xy 307.34 110.49) (xy 320.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a06676-141e-4593-869f-68fd1c0eb095")
 	)
 	(wire
 		(pts
@@ -11213,6 +11277,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 99.06) (xy 40.64 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206bffd8-bcde-4874-a12b-9374ad0d1f6a")
+	)
+	(wire
+		(pts
 			(xy 82.55 139.7) (xy 72.39 139.7)
 		)
 		(stroke
@@ -11253,7 +11327,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 231.14) (xy 44.45 231.14)
+			(xy 372.11 238.76) (xy 372.11 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220f94ed-faac-47ba-a554-ba117a3c0ee0")
+	)
+	(wire
+		(pts
+			(xy 27.94 231.14) (xy 38.1 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11343,6 +11427,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 223.52) (xy 38.1 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f01ae25-b42a-4e84-b203-925bf2103eb9")
+	)
+	(wire
+		(pts
 			(xy 72.39 101.6) (xy 71.12 101.6)
 		)
 		(stroke
@@ -11360,16 +11454,6 @@
 			(type default)
 		)
 		(uuid "30c7cf96-4f9f-4cc1-881d-213ada59483d")
-	)
-	(wire
-		(pts
-			(xy 40.64 137.16) (xy 40.64 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31700067-6c14-426b-a268-7ae971e30e70")
 	)
 	(wire
 		(pts
@@ -11420,16 +11504,6 @@
 			(type default)
 		)
 		(uuid "3da4d2d9-cded-44be-bf9e-0c8ec65dbd37")
-	)
-	(wire
-		(pts
-			(xy 372.11 236.22) (xy 372.11 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2cfb73-b43f-4a11-b5d1-34447991d7d3")
 	)
 	(wire
 		(pts
@@ -11523,16 +11597,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 186.69) (xy 38.1 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b5d7c0-e5b2-4583-8260-31b16f7aac7e")
-	)
-	(wire
-		(pts
 			(xy 30.48 139.7) (xy 33.02 139.7)
 		)
 		(stroke
@@ -11540,6 +11604,16 @@
 			(type default)
 		)
 		(uuid "590c2959-f3e1-4b30-926a-95936dae0079")
+	)
+	(wire
+		(pts
+			(xy 38.1 231.14) (xy 44.45 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591dba6b-ae32-409c-91b1-2441abefb189")
 	)
 	(wire
 		(pts
@@ -11643,16 +11717,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 241.3) (xy 372.11 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6526a179-0f98-4693-ad87-455fbe3acf9c")
-	)
-	(wire
-		(pts
 			(xy 45.72 104.14) (xy 45.72 99.06)
 		)
 		(stroke
@@ -11660,6 +11724,16 @@
 			(type default)
 		)
 		(uuid "656d52ff-465c-4c1d-aa97-b20b3a0b1f8f")
+	)
+	(wire
+		(pts
+			(xy 372.11 241.3) (xy 372.11 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67434468-3c92-4e84-96f9-04aedd555ef1")
 	)
 	(wire
 		(pts
@@ -11683,7 +11757,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 106.68) (xy 46.99 106.68)
+			(xy 30.48 106.68) (xy 40.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -11703,7 +11777,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 189.23) (xy 38.1 189.23)
+			(xy 30.48 189.23) (xy 44.45 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11753,7 +11827,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 238.76) (xy 372.11 241.3)
+			(xy 372.11 236.22) (xy 372.11 238.76)
 		)
 		(stroke
 			(width 0)
@@ -11770,6 +11844,16 @@
 			(type default)
 		)
 		(uuid "72729c46-e73e-4c9f-b283-7c14fd615656")
+	)
+	(wire
+		(pts
+			(xy 38.1 194.31) (xy 44.45 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768f12b3-9e7c-49a8-acc4-589622fb1912")
 	)
 	(wire
 		(pts
@@ -11933,7 +12017,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 226.06) (xy 38.1 226.06)
+			(xy 30.48 226.06) (xy 44.45 226.06)
 		)
 		(stroke
 			(width 0)
@@ -11963,7 +12047,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 144.78) (xy 46.99 144.78)
+			(xy 30.48 144.78) (xy 40.64 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12043,13 +12127,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 226.06) (xy 44.45 226.06)
+			(xy 40.64 137.16) (xy 40.64 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9527bc0-2dfc-4466-8048-ed565e986623")
+		(uuid "abb0b6d8-bc55-473c-a7c6-e722d0d659ca")
 	)
 	(wire
 		(pts
@@ -12063,7 +12147,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 101.6) (xy 46.99 101.6)
+			(xy 33.02 101.6) (xy 46.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -12110,16 +12194,6 @@
 			(type default)
 		)
 		(uuid "b802bf17-1b86-40b7-a59b-a00de83fce5a")
-	)
-	(wire
-		(pts
-			(xy 38.1 189.23) (xy 44.45 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4ec38f-28f9-416b-aeba-a1dda542e544")
 	)
 	(wire
 		(pts
@@ -12233,6 +12307,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 186.69) (xy 38.1 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03696e5-d45d-447e-9392-1089313b9d96")
+	)
+	(wire
+		(pts
 			(xy 189.23 241.3) (xy 190.5 241.3)
 		)
 		(stroke
@@ -12280,6 +12364,16 @@
 			(type default)
 		)
 		(uuid "db41ee5c-9b17-4379-b2cc-39737761c457")
+	)
+	(wire
+		(pts
+			(xy 40.64 106.68) (xy 46.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc7150b6-ec8b-4764-b187-a529328f2e54")
 	)
 	(wire
 		(pts
@@ -12333,13 +12427,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 40.64 139.7)
+			(xy 320.04 107.95) (xy 320.04 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0be87f4-4e7a-48ce-afa4-dadc8da0efa0")
+		(uuid "e0fa1d1d-18ae-4b81-8de3-08e8dcc6f5fb")
 	)
 	(wire
 		(pts
@@ -12373,16 +12467,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 40.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5c5097e-266b-4970-8f16-ccf33311c877")
-	)
-	(wire
-		(pts
 			(xy 27.94 58.42) (xy 31.75 58.42)
 		)
 		(stroke
@@ -12403,16 +12487,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 223.52) (xy 38.1 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a89bad-d292-4b95-8b6d-99a462f15aae")
-	)
-	(wire
-		(pts
 			(xy 27.94 226.06) (xy 30.48 226.06)
 		)
 		(stroke
@@ -12420,16 +12494,6 @@
 			(type default)
 		)
 		(uuid "f62f885c-28cd-416f-b912-919702c199d6")
-	)
-	(wire
-		(pts
-			(xy 33.02 101.6) (xy 40.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6729e45-46d3-425d-9cc8-2ead948073b9")
 	)
 	(wire
 		(pts
@@ -12443,7 +12507,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 139.7) (xy 46.99 139.7)
+			(xy 33.02 139.7) (xy 46.99 139.7)
 		)
 		(stroke
 			(width 0)
@@ -12463,7 +12527,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 194.31) (xy 44.45 194.31)
+			(xy 27.94 194.31) (xy 38.1 194.31)
 		)
 		(stroke
 			(width 0)
@@ -12995,6 +13059,16 @@
 		)
 		(uuid "2dd4e07a-3e49-46d7-8c7c-a25aefedc38a")
 	)
+	(label "CAN2+"
+		(at 314.96 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32de510b-2a96-4ced-b95a-fb5e059a31e3")
+	)
 	(label "O2S2"
 		(at 190.5 172.72 180)
 		(effects
@@ -13205,18 +13279,8 @@
 		)
 		(uuid "4bcc64c6-1653-4983-a3a5-bb0d9a52d159")
 	)
-	(label "CAN1-"
-		(at 314.96 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4be658a1-8461-483b-b590-4055c3f7c876")
-	)
 	(label "FANRELAY_IN"
-		(at 82.55 106.68 0)
+		(at 82.55 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13256,7 +13320,7 @@
 		(uuid "4f8a3f7b-011d-434c-9384-98872b1ec191")
 	)
 	(label "FUELRELAY_IN"
-		(at 82.55 101.6 0)
+		(at 82.55 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13495,6 +13559,16 @@
 		)
 		(uuid "71189077-1a6e-45db-b8ce-1a8821ffa6c2")
 	)
+	(label "USB-"
+		(at 255.27 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "715e213b-e211-425e-b8b6-03cf0d1dbb85")
+	)
 	(label "THRESH"
 		(at 78.74 289.56 0)
 		(effects
@@ -13566,7 +13640,7 @@
 		(uuid "78749d27-e184-414c-b104-571729960ff1")
 	)
 	(label "CAN1+"
-		(at 382.27 115.57 0)
+		(at 382.27 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13594,6 +13668,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d13a88a-9762-4292-b1a6-fae858ce458b")
+	)
+	(label "CAN2-"
+		(at 314.96 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f411ed1-0f8f-410e-b4ed-98a33cc3c218")
 	)
 	(label "AIR"
 		(at 190.5 157.48 180)
@@ -13656,7 +13740,7 @@
 		(uuid "897b1acf-43d1-44b0-9427-424bd8a08bd8")
 	)
 	(label "FUELRELAY_OUT"
-		(at 30.48 106.68 180)
+		(at 30.48 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13676,7 +13760,7 @@
 		(uuid "8e500d41-5a49-4eee-a656-5717bf05f960")
 	)
 	(label "CAN1-"
-		(at 382.27 113.03 0)
+		(at 382.27 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13724,6 +13808,16 @@
 			(justify right bottom)
 		)
 		(uuid "90899ee8-a3f8-41c1-9c0a-5b55d5396216")
+	)
+	(label "USB+"
+		(at 255.27 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9444ac33-9791-48de-a4cf-32a2450660b6")
 	)
 	(label "O2SENS"
 		(at 190.5 170.18 180)
@@ -13885,6 +13979,16 @@
 		)
 		(uuid "b0ee528f-689b-41fb-8920-845500af88b7")
 	)
+	(label "CAN1-"
+		(at 252.73 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1935717-8d6f-4965-ad2b-3dd925c3b2e0")
+	)
 	(label "D4_IN"
 		(at 369.57 92.71 180)
 		(effects
@@ -13936,7 +14040,7 @@
 		(uuid "b6641d82-3a9c-49cb-abc8-90bb9c1e6d34")
 	)
 	(label "FANRELAY_OUT"
-		(at 30.48 101.6 180)
+		(at 30.48 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14024,16 +14128,6 @@
 			(justify right bottom)
 		)
 		(uuid "c7e12834-0182-469e-b37f-a637e4c3764d")
-	)
-	(label "CAN2-"
-		(at 252.73 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8728414-9a1b-45cb-a452-4a7eca2e6404")
 	)
 	(label "CHECKENGINE_OUT"
 		(at 346.71 210.82 180)
@@ -14255,7 +14349,7 @@
 		)
 		(uuid "ecb6ebd3-102d-4384-a34a-157080c800e4")
 	)
-	(label "CAN2+"
+	(label "CAN1+"
 		(at 252.73 53.34 0)
 		(effects
 			(font
@@ -14263,7 +14357,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ef670d21-1fba-4bc0-aa1f-6e65580604fd")
+		(uuid "f0ba2753-e8de-4f28-9996-fd58d54382c2")
 	)
 	(label "SPARK"
 		(at 190.5 20.32 180)
@@ -14314,16 +14408,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc77175f-1282-4a4b-a517-5eee2850ced6")
-	)
-	(label "CAN1+"
-		(at 314.96 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe9e0758-c8b6-4d4e-bc72-2eae43d03e06")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -14750,92 +14834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 44.45 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "194eece5-b904-49f2-ab50-f20546e74c80")
-		(property "Reference" "U2"
-			(at 43.815 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 43.815 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "477c37a0-7167-4cbb-a38b-bfdb7dafe69a")
-		)
-		(pin "3"
-			(uuid "2315510d-297d-40e7-b909-00690e00d2f0")
-		)
-		(pin "1"
-			(uuid "bfd08a2c-e02b-4a3e-b94f-ce273668f263")
-		)
-		(pin "5"
-			(uuid "a1f308c1-12a0-40ba-a45d-48ce36980241")
-		)
-		(pin "7"
-			(uuid "33156766-d811-4a31-b589-d12938829aaa")
-		)
-		(pin "6"
-			(uuid "a7db10b3-792b-478f-aaa9-dbc7bd0fdba6")
-		)
-		(pin "8"
-			(uuid "8a8e6f7b-ed24-4eef-942a-8e8a7f303996")
-		)
-		(pin "4"
-			(uuid "99392c6c-79b0-45c7-8cc7-f93a005e94a7")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 314.96 27.94 90)
 		(unit 1)
@@ -15254,6 +15252,144 @@
 			(project ""
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 71.12 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2863fcdd-d873-4920-8a16-54c93b53fa4f")
+		(property "Reference" "IC2"
+			(at 56.515 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 56.515 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 31.75 99.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 31.75 -0.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 60.198 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 31.75 -200.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 31.75 -300.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 31.75 -400.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 31.75 -500.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 31.75 -600.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "31aedd03-5a28-4279-91d2-b080293b4f6c")
+		)
+		(pin "7"
+			(uuid "9d1b31fe-ba08-4934-b6c2-3e380ed90c83")
+		)
+		(pin "3"
+			(uuid "e535ab0a-3f12-4d4a-8dac-7899fde81c3e")
+		)
+		(pin "2"
+			(uuid "0cba0c88-72cd-4f65-87c6-ea4a68362ae8")
+		)
+		(pin "1"
+			(uuid "2e4c8f7e-a749-499c-b299-8770ef6b5ad3")
+		)
+		(pin "4"
+			(uuid "0d78dd89-8cfa-4cbe-989a-9e82d9f7550e")
+		)
+		(pin "8"
+			(uuid "32ade47b-d7ed-45ea-89d4-07d83e58e9f9")
+		)
+		(pin "5"
+			(uuid "86708dd4-d382-4e28-84f7-9fd8fc7301c2")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -15903,74 +16039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hellen-one-common:+12V_RAW")
-		(at 320.04 107.95 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37d0322a-ac2b-471d-86f7-2f958485af9a")
-		(property "Reference" "#PWR65"
-			(at 323.85 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_RAW"
-			(at 316.23 107.9499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_RAW\""
-			(at 320.04 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf4a5b4-40cd-4ce0-80a3-6ebd068f0572")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "#PWR65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 69.85 199.39 0)
 		(unit 1)
@@ -16178,6 +16246,255 @@
 		)
 	)
 	(symbol
+		(lib_id "175446-6:175446-6")
+		(at 346.71 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e095ac-24f8-412c-b98b-9abec3440b8d")
+		(property "Reference" "J1"
+			(at 359.41 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "175446-6"
+			(at 359.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TE_175446-6:1754466"
+			(at 368.3 282.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=175446&DocType=Customer+Drawing&DocLang=Japanese"
+			(at 368.3 382.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Gray | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 42 | Number of Rows 2 | Contact Features: Contact Type Tab | Contact Mating Area Plating Material Tin (Sn) | Contact Mating Area Plating Material Gold (Au) | Housing Features: Centerline (Pitch) 3 MM | Centerline (Pitch) .118 INCH | Centerline (Pitch) 3.5 MM | Centerline (Pitch) .137 INCH | Mechanical Attachment: PCB Mount Alignment With | PCB Mount Retention Without | Connector Mounti"
+			(at 346.71 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "22.2"
+			(at 368.3 582.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-175446-6"
+			(at 368.3 682.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/175446-6?qs=NCjoA4VtBPm%2FgYobaI%252BBdg%3D%3D"
+			(at 368.3 782.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 368.3 882.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "175446-6"
+			(at 368.3 982.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "115"
+			(uuid "275a9766-3310-46dd-ae86-fee267b7e4a4")
+		)
+		(pin "9"
+			(uuid "540f63b7-1cec-4b2b-bc05-7c516f7f6bad")
+		)
+		(pin "8"
+			(uuid "5e4cf481-89ae-4c75-8fd5-04498876f079")
+		)
+		(pin "122"
+			(uuid "f1719646-9cbd-4159-b835-5adb372ebdc6")
+		)
+		(pin "1"
+			(uuid "d86eeda5-9df2-4e7f-acce-c5381d819ffe")
+		)
+		(pin "5"
+			(uuid "eb8603d9-1ca9-42da-9025-0a4dc64b0c80")
+		)
+		(pin "4"
+			(uuid "c98b49a1-9af0-4b63-99c5-f9c33efdf054")
+		)
+		(pin "121"
+			(uuid "0f8b4d26-0e8d-48ae-942e-6d9e492aaa78")
+		)
+		(pin "120"
+			(uuid "9f7593ce-c340-424a-bb88-12147332b946")
+		)
+		(pin "7"
+			(uuid "85fd00cc-980f-4391-95ea-e4e108e0a624")
+		)
+		(pin "10"
+			(uuid "c7ab3673-a9b0-4159-895c-4c950a67483d")
+		)
+		(pin "124"
+			(uuid "33673df9-5bdd-470a-a94d-1742d4be6944")
+		)
+		(pin "110"
+			(uuid "68daeccc-f5a5-4555-a896-6de70e1e62cf")
+		)
+		(pin "126"
+			(uuid "4dda410a-5b51-4a40-8773-3ec3dba63d8c")
+		)
+		(pin "125"
+			(uuid "d34797e8-420e-46fc-bb3f-3f3c134c42da")
+		)
+		(pin "107"
+			(uuid "0de50569-7026-4c70-a2f8-7fec78bc247f")
+		)
+		(pin "6"
+			(uuid "2ddaa02e-58af-4f48-89da-2080dcc91e56")
+		)
+		(pin "111"
+			(uuid "da40ef57-d895-466b-b3de-c1e3c672c026")
+		)
+		(pin "2"
+			(uuid "e7e0aea1-f716-4a49-8fc7-b3910db91042")
+		)
+		(pin "106"
+			(uuid "8dac38e8-92e1-474d-997e-5f9a3b146ba0")
+		)
+		(pin "MH3"
+			(uuid "4748b0d7-bb31-45fd-a946-b1ecfda02358")
+		)
+		(pin "105"
+			(uuid "11ddd25e-3ec3-4772-ae12-301a80e51fd8")
+		)
+		(pin "123"
+			(uuid "200de083-baa1-4fcb-93d4-8066047c689f")
+		)
+		(pin "14"
+			(uuid "e059851e-cf0f-48be-961d-377b992944f3")
+		)
+		(pin "103"
+			(uuid "61321fcd-90fe-4890-9dbe-792f7518fd9e")
+		)
+		(pin "11"
+			(uuid "f1413e0f-d36a-4415-9a58-85d12a261f52")
+		)
+		(pin "15"
+			(uuid "8df1cb4e-eeb9-43b8-8bee-4db5abbf2996")
+		)
+		(pin "109"
+			(uuid "3c60c139-52f5-42a6-8791-a878958c6e27")
+		)
+		(pin "119"
+			(uuid "a184ca85-f12b-4fe4-b9fb-bd889bb22c69")
+		)
+		(pin "117"
+			(uuid "7a809280-b5e3-4d82-b0db-e448edc49e7a")
+		)
+		(pin "116"
+			(uuid "6b8f55f4-93fe-42d4-8643-0665030d5574")
+		)
+		(pin "112"
+			(uuid "282d1882-caf0-497d-8925-1befa21ffa6f")
+		)
+		(pin "102"
+			(uuid "2ea2286a-d6d1-4baa-b240-3bea4912891b")
+		)
+		(pin "113"
+			(uuid "5bcce697-71c8-4f34-9fc6-94d44b88e0f5")
+		)
+		(pin "MH2"
+			(uuid "c4aebf4c-93a2-4a00-9b04-3683f72957f5")
+		)
+		(pin "114"
+			(uuid "d37d143b-c0a1-42d9-b390-d5944093c470")
+		)
+		(pin "101"
+			(uuid "ffb84e42-50e1-4157-9a49-6b52af9d1f75")
+		)
+		(pin "MH1"
+			(uuid "0388e2dc-1551-42fd-b05b-94194ac3a530")
+		)
+		(pin "16"
+			(uuid "af545ee9-bce6-49e9-bd2b-29af882bb34b")
+		)
+		(pin "104"
+			(uuid "e6ac6da2-8edd-4868-9a11-9ee0b7ca11f6")
+		)
+		(pin "108"
+			(uuid "1805c3fb-eb1f-40e5-a791-7d49447d086f")
+		)
+		(pin "118"
+			(uuid "15f1c794-bc68-4b7b-a40e-7fc89087893f")
+		)
+		(pin "3"
+			(uuid "e117194a-48ae-4347-b41e-9036a5fdcf36")
+		)
+		(pin "13"
+			(uuid "5bcac019-d832-4a12-a4f7-aa3d9b158dda")
+		)
+		(pin "12"
+			(uuid "c5ba0ac0-78b6-4329-8eb7-d0a32962af3b")
+		)
+		(instances
+			(project ""
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VP")
 		(at 382.27 213.36 270)
 		(unit 1)
@@ -16239,92 +16556,6 @@
 			(project ""
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 59.69 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44a5c78c-f3b0-4c84-9538-569ac5ddedb6")
-		(property "Reference" "U3"
-			(at 59.055 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 59.055 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ea10af0-2b29-49b6-8828-50996a7c24f3")
-		)
-		(pin "3"
-			(uuid "2fa9f176-1b51-47ef-ac56-59cf337d8b0f")
-		)
-		(pin "1"
-			(uuid "8a5f0733-4846-44da-ba39-79f6d7bfa287")
-		)
-		(pin "5"
-			(uuid "4d391636-49d7-417e-b14e-a7432275e493")
-		)
-		(pin "7"
-			(uuid "ddf721b9-64ce-4998-8750-e36440e824cd")
-		)
-		(pin "6"
-			(uuid "35660079-6620-440e-afb9-226f72b8ada6")
-		)
-		(pin "8"
-			(uuid "8e95268c-fab9-4e33-9506-3eef20a0e9fd")
-		)
-		(pin "4"
-			(uuid "69f4acf7-28f5-48c7-951c-2268c66afef0")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -17053,92 +17284,6 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 57.15 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c1dd544-dd38-46d3-aa24-303fac48d2fd")
-		(property "Reference" "U5"
-			(at 56.515 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 56.515 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 54.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e82cb2a4-5815-43c1-9fb8-6b8969b263ed")
-		)
-		(pin "3"
-			(uuid "1894c0f2-df91-469e-9849-951a781875a4")
-		)
-		(pin "1"
-			(uuid "76c6df73-7eed-4f10-b239-164353eed50f")
-		)
-		(pin "5"
-			(uuid "d48957c9-504d-4623-97ea-f9375d26a810")
-		)
-		(pin "7"
-			(uuid "70ebce57-2a17-4095-b35d-db3935917cb3")
-		)
-		(pin "6"
-			(uuid "bea236d0-f999-4568-869c-1a68c62002b9")
-		)
-		(pin "8"
-			(uuid "9ebd5ffa-8d09-40a8-8233-82925b795662")
-		)
-		(pin "4"
-			(uuid "551b196c-1b47-4367-b3c0-9271fd28f995")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -17960,7 +18105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hellen-one-power_12and5V:power_12and5V"
+		(property "Footprint" "hellen-one-power_12and5V-0.3:power_12and5V"
 			(at 35.56 317.5 0)
 			(effects
 				(font
@@ -18232,6 +18377,144 @@
 		)
 	)
 	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 58.42 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69157bd0-cc67-413f-be56-05929d129c56")
+		(property "Reference" "IC5"
+			(at 43.815 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 43.815 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 19.05 -31.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 19.05 -131.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 47.498 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 19.05 -331.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 19.05 -431.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 19.05 -531.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 19.05 -631.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 19.05 -731.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c634eab6-2ef5-4a16-b231-8b3a93a5caf6")
+		)
+		(pin "7"
+			(uuid "e81e3123-aff3-4cca-93e4-f05dfac5160e")
+		)
+		(pin "3"
+			(uuid "57868ac9-097a-41aa-b3ef-346ea72f624f")
+		)
+		(pin "2"
+			(uuid "07adbec8-aaf2-4cbf-90ce-52b76a9356e0")
+		)
+		(pin "1"
+			(uuid "3a90178b-ab7b-46d3-9223-f8b4c9b758f0")
+		)
+		(pin "4"
+			(uuid "4ec66b6f-3ab5-447c-ae03-3b3531a42119")
+		)
+		(pin "8"
+			(uuid "126f26af-1c75-4636-bf2e-2ca2355d0245")
+		)
+		(pin "5"
+			(uuid "b3cc8805-29b2-4743-a852-fd4a33b295ed")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 149.86 0)
 		(unit 1)
@@ -18450,158 +18733,6 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 59.69 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dd0e647-d3e3-4784-9d46-982a223ed8cd")
-		(property "Reference" "U4"
-			(at 59.055 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 59.055 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "671faaeb-e397-44a0-a2a1-6931d720e3bf")
-		)
-		(pin "3"
-			(uuid "ca704c11-4302-45a5-8e17-dd175ee3d8e0")
-		)
-		(pin "1"
-			(uuid "b8e5847e-0f24-4831-8364-958240f98b75")
-		)
-		(pin "5"
-			(uuid "d31d49c2-bfb2-42df-9bf2-42c92eb95c7f")
-		)
-		(pin "7"
-			(uuid "22662329-d427-41b6-80ee-28994610e948")
-		)
-		(pin "6"
-			(uuid "38e7691d-0ff9-4320-97f5-3b67ca27b560")
-		)
-		(pin "8"
-			(uuid "70a97dec-887f-4533-aef2-1cd9877ff488")
-		)
-		(pin "4"
-			(uuid "be62b16d-a97d-415a-ae52-57c0033c19ec")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 307.34 110.49 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e87680c-8f7f-4e7d-8360-760a036c5c83")
-		(property "Reference" "#PWR67"
-			(at 300.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 302.26 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 307.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 307.34 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fed9ee49-3c19-43ef-a956-efb838805ad5")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -19298,6 +19429,144 @@
 		)
 	)
 	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 73.66 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87790ac7-9692-4e7e-86a4-1a2516bda334")
+		(property "Reference" "IC3"
+			(at 59.055 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 59.055 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 34.29 49.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 34.29 -50.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 62.738 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 34.29 -250.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 34.29 -350.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 34.29 -450.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 34.29 -550.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 34.29 -650.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4954cabd-d91d-4e30-a254-fb933bb8387c")
+		)
+		(pin "7"
+			(uuid "7cc43627-4616-4749-9ffc-fd067faee450")
+		)
+		(pin "3"
+			(uuid "a88edeb8-d630-4bda-9c28-a35bce0fce2e")
+		)
+		(pin "2"
+			(uuid "20701145-8c8f-4722-a186-0521c4c0e1fe")
+		)
+		(pin "1"
+			(uuid "ab39bd0e-503b-4249-9495-0240a1cbbfe5")
+		)
+		(pin "4"
+			(uuid "131648a6-482c-4f37-98d7-d10fba1aa465")
+		)
+		(pin "8"
+			(uuid "94431b55-d3b8-4c22-b9ad-6e2a80acd95f")
+		)
+		(pin "5"
+			(uuid "f9bd7a48-7bf0-4c4c-a631-68ba1b0b1178")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 382.27 97.79 90)
 		(mirror x)
@@ -19624,6 +19893,144 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 58.42 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f67b528-e201-45a3-a62a-39b9edceeaee")
+		(property "Reference" "IC6"
+			(at 43.815 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 43.815 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 19.05 -60.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 19.05 -160.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 47.498 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 19.05 -360.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 19.05 -460.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 19.05 -560.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 19.05 -660.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 19.05 -760.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "36faa1ba-bd39-4cb8-b24f-46263463266b")
+		)
+		(pin "7"
+			(uuid "a8d032ae-03a4-4d8d-9685-eb357a48e8d1")
+		)
+		(pin "3"
+			(uuid "1ede6ec2-2e9e-47fa-94e7-2ea03e3936a1")
+		)
+		(pin "2"
+			(uuid "6edbd7ee-2844-4a62-8cb5-977b92e1bdc5")
+		)
+		(pin "1"
+			(uuid "2a1d9762-e0a3-4fc8-9c63-dc010ee86a16")
+		)
+		(pin "4"
+			(uuid "93939e35-e77e-4ab2-bd96-0165b7aeb9b0")
+		)
+		(pin "8"
+			(uuid "256ae19a-8240-4220-b684-2c984d9b81a8")
+		)
+		(pin "5"
+			(uuid "7ac984e5-2fe9-4e60-b01f-810ae4938dc6")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -20170,6 +20577,144 @@
 		)
 	)
 	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 71.12 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1c206a2-e35f-4c49-98ce-e3e6d83a3251")
+		(property "Reference" "IC1"
+			(at 56.515 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 56.515 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 31.75 136.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 31.75 36.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 60.198 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 31.75 -163.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 31.75 -263.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 31.75 -363.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 31.75 -463.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 31.75 -563.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "43b4cd7b-f4b9-4555-bc5f-798bef8094e3")
+		)
+		(pin "7"
+			(uuid "4e545424-194b-4184-ab71-1dfa9c24a49e")
+		)
+		(pin "3"
+			(uuid "e382ff37-2f2d-4d1d-ace3-251847854af0")
+		)
+		(pin "2"
+			(uuid "1fafede0-213b-4324-a15c-04f9666675ee")
+		)
+		(pin "1"
+			(uuid "e46694df-1179-487c-ad56-b7cb6c30a9e2")
+		)
+		(pin "4"
+			(uuid "3781e915-2bf6-41a6-9943-171d52c44f8a")
+		)
+		(pin "8"
+			(uuid "387de232-e8a0-4efe-86d7-d01ee5cd6145")
+		)
+		(pin "5"
+			(uuid "9dbed2f2-82ea-4cc6-bba6-6d0daf2a9189")
+		)
+		(instances
+			(project ""
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 101.6 30.48 270)
 		(unit 1)
@@ -20683,7 +21228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "New_Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical"
 			(at 302.26 330.2 0)
 			(effects
 				(font
@@ -21267,255 +21812,6 @@
 		)
 	)
 	(symbol
-		(lib_id "175446-6:175446-6")
-		(at 346.71 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beef9d5a-4d2d-4cfd-8206-d84baee5cbbb")
-		(property "Reference" "J1"
-			(at 359.41 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "175446-6"
-			(at 359.41 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TE-175446-6:1754466"
-			(at 368.3 282.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=175446&DocType=Customer+Drawing&DocLang=Japanese"
-			(at 368.3 382.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Body Features: Primary Product Color Gray | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 42 | Number of Rows 2 | Contact Features: Contact Type Tab | Contact Mating Area Plating Material Tin (Sn) | Contact Mating Area Plating Material Gold (Au) | Housing Features: Centerline (Pitch) 3 MM | Centerline (Pitch) .118 INCH | Centerline (Pitch) 3.5 MM | Centerline (Pitch) .137 INCH | Mechanical Attachment: PCB Mount Alignment With | PCB Mount Retention Without | Connector Mounti"
-			(at 346.71 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "22.2"
-			(at 368.3 582.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "571-175446-6"
-			(at 368.3 682.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/175446-6?qs=NCjoA4VtBPm%2FgYobaI%252BBdg%3D%3D"
-			(at 368.3 782.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 368.3 882.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "175446-6"
-			(at 368.3 982.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "d7fef6e2-3d9a-4f84-9502-849d3bb7feea")
-		)
-		(pin "113"
-			(uuid "c445698a-c6f3-4398-be96-874928be83ce")
-		)
-		(pin "116"
-			(uuid "9f7e11ae-50b4-481c-85cf-cc334ea30495")
-		)
-		(pin "107"
-			(uuid "c396d7a3-e234-4358-a271-dc25770eeb59")
-		)
-		(pin "14"
-			(uuid "ecd9eb58-ed45-47a0-8206-4fd17dac434c")
-		)
-		(pin "123"
-			(uuid "ad11c9fc-74ed-4a5c-ac16-53fd2d899d70")
-		)
-		(pin "119"
-			(uuid "038db08d-9566-44ef-a926-5c4c288e99ac")
-		)
-		(pin "MH1"
-			(uuid "640a53aa-e0c6-4c21-a0d7-1ca157dba099")
-		)
-		(pin "121"
-			(uuid "0d464989-d65c-4fdd-8731-0d39e54aa868")
-		)
-		(pin "7"
-			(uuid "2798357b-a734-4b7b-a104-8da269f62f99")
-		)
-		(pin "2"
-			(uuid "5214e0b5-7d0d-4557-8afa-13fe00c8fdd0")
-		)
-		(pin "MH3"
-			(uuid "ab06fa5b-7805-437d-84e6-f0748250b10a")
-		)
-		(pin "12"
-			(uuid "697247ed-f585-48e1-b477-66e0a3ab113b")
-		)
-		(pin "111"
-			(uuid "1505143d-ea95-410f-9993-6b437e72aa43")
-		)
-		(pin "118"
-			(uuid "39472625-d124-4125-8126-1990c21f28df")
-		)
-		(pin "3"
-			(uuid "4f6f8643-3a31-4373-8c0c-fa816e0b48c1")
-		)
-		(pin "109"
-			(uuid "25179fa1-9adf-45e4-a719-a67724377d7e")
-		)
-		(pin "16"
-			(uuid "d83c70db-f212-4f61-a8dd-f6034924fd4a")
-		)
-		(pin "108"
-			(uuid "b792efa5-dc66-41cf-b4bd-39ac206bb5a0")
-		)
-		(pin "120"
-			(uuid "b96787b9-6091-4e7a-bb8b-012cab091870")
-		)
-		(pin "8"
-			(uuid "f8a34cfe-5d34-4283-8061-1716b4614222")
-		)
-		(pin "1"
-			(uuid "d830e287-8fcc-479d-beac-12a7fc2d3744")
-		)
-		(pin "MH2"
-			(uuid "6884d0cb-826d-4971-8e94-5a01ff20c49a")
-		)
-		(pin "112"
-			(uuid "11172477-b463-4568-ac81-97e56ca58159")
-		)
-		(pin "13"
-			(uuid "34517624-687c-44d5-a6ec-e1093bf72f76")
-		)
-		(pin "125"
-			(uuid "364c1c3d-c7e6-44b8-b866-d2acc5737712")
-		)
-		(pin "106"
-			(uuid "d882a9ce-66ae-44fa-b13a-dba6602f19c0")
-		)
-		(pin "9"
-			(uuid "7ab9f817-71b9-43b1-a5b4-d37e13dd319c")
-		)
-		(pin "5"
-			(uuid "dc4dddd2-48b1-48ab-97e4-98bd35391068")
-		)
-		(pin "104"
-			(uuid "92f3bbd5-53a9-44a4-964a-cd535e94ac9d")
-		)
-		(pin "117"
-			(uuid "3b83360f-b188-4788-ba72-f35cfaa7b1b7")
-		)
-		(pin "114"
-			(uuid "c3aa2144-6e59-4702-a0f4-bfe5cdac509a")
-		)
-		(pin "6"
-			(uuid "d7259436-5902-4ddf-ac96-48e6f9594583")
-		)
-		(pin "124"
-			(uuid "68fffbb8-bdb0-49e4-a5ef-db52239f0f3f")
-		)
-		(pin "126"
-			(uuid "30f0c41b-4136-4b8a-aadb-e0ad5fe9035a")
-		)
-		(pin "15"
-			(uuid "f651a9cc-7061-40c1-8dfb-7a45a8d4d3ed")
-		)
-		(pin "110"
-			(uuid "bb0e018f-c326-4253-89a8-8a970f3c4b76")
-		)
-		(pin "115"
-			(uuid "f97609f1-ec0e-442e-9a69-85a39e0c7275")
-		)
-		(pin "11"
-			(uuid "e45789d8-e4a8-4f2f-8e7b-c2dcce6fd4e4")
-		)
-		(pin "122"
-			(uuid "7ccc39fa-d00a-45f1-a53d-6da13c78754e")
-		)
-		(pin "10"
-			(uuid "e83311e3-b94f-4517-9a15-5593c51a37e1")
-		)
-		(pin "102"
-			(uuid "64a91f91-a60a-4398-8075-03bb6c1f03a6")
-		)
-		(pin "101"
-			(uuid "73f6674d-1317-44bd-bbdb-d84e62716c52")
-		)
-		(pin "105"
-			(uuid "0dc9e3f2-a6a2-4a55-bc5e-8b560f2a1db7")
-		)
-		(pin "103"
-			(uuid "ab4731ea-b030-42a3-b7f2-74fc57d58e2d")
-		)
-		(instances
-			(project ""
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "hellen-one-common:+12V_RAW")
 		(at 38.1 215.9 0)
 		(unit 1)
@@ -21925,92 +22221,6 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 44.45 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7b558cd-97b0-4599-8133-f9114598b932")
-		(property "Reference" "U1"
-			(at 43.815 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 43.815 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d25bce2e-ccb7-4ce9-a3eb-d737e002d09c")
-		)
-		(pin "3"
-			(uuid "44ec474c-ee05-49fd-8541-dba37aa0e599")
-		)
-		(pin "1"
-			(uuid "62cf5745-e66e-4de6-8ec8-c1c8606643ca")
-		)
-		(pin "5"
-			(uuid "98014a79-6463-4451-bb64-010bceb574cf")
-		)
-		(pin "7"
-			(uuid "b8e6e248-8c8e-4d36-830f-b3b9261c1231")
-		)
-		(pin "6"
-			(uuid "be70631a-861d-4935-bed3-fe5fc3df6962")
-		)
-		(pin "8"
-			(uuid "bd370454-37df-46a1-bb30-c203de78fd6d")
-		)
-		(pin "4"
-			(uuid "cacb7f31-ed73-4b41-88f5-4a9e9508e657")
-		)
-		(instances
-			(project ""
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -22435,7 +22645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "New_Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical"
 			(at 325.12 113.03 0)
 			(effects
 				(font
@@ -23003,6 +23213,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 320.04 107.95 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3c13a7e-a5c2-480d-8a86-04b60902ca89")
+		(property "Reference" "#PWR65"
+			(at 313.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f2799c-c230-4d64-aa2c-2f16945e37dd")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "#PWR65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 147.32 96.52 90)
 		(unit 1)
@@ -23064,6 +23340,144 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VNLD5160-E:VNLD5160TR-E")
+		(at 73.66 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5d1e4ff-3c5d-4c46-bc7b-4b965f0f397d")
+		(property "Reference" "IC4"
+			(at 59.055 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5160-E"
+			(at 59.055 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "VNLD5160-E:SOIC127P600X175-8N"
+			(at 34.29 11.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5160-e.pdf"
+			(at 34.29 -88.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMNIFET III fully protected low-side driver for automotive applications"
+			(at 62.738 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.75"
+			(at 34.29 -288.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-VNLD5160TR-E"
+			(at 34.29 -388.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VNLD5160TR-E?qs=mKNKSX85ZJeNcL2yR8iHpQ%3D%3D"
+			(at 34.29 -488.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 34.29 -588.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5160TR-E"
+			(at 34.29 -688.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ac403955-2353-4aa3-844f-e8ecc1942f12")
+		)
+		(pin "7"
+			(uuid "22bb4dc7-2759-484e-88bb-69b811576266")
+		)
+		(pin "3"
+			(uuid "87d4b441-36cc-4e58-a052-2a77a54c46ac")
+		)
+		(pin "2"
+			(uuid "e8f259e7-a4c5-4a5c-9b3b-143ab1be10b4")
+		)
+		(pin "1"
+			(uuid "ef9bffb9-c218-45f4-80cc-26963adffa59")
+		)
+		(pin "4"
+			(uuid "c376387b-6a15-48ed-af69-bd59f4a6ecce")
+		)
+		(pin "8"
+			(uuid "c24a3e47-eae3-46a0-8c1f-9d759182b49d")
+		)
+		(pin "5"
+			(uuid "3d75bae0-7040-486e-944b-896f69958649")
+		)
+		(instances
+			(project "EP91Starlet"
+				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -23407,92 +23821,6 @@
 			(project "EP91Starlet"
 				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
 					(reference "#PWR22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VNLD5090-E:VNLD5090-E")
-		(at 57.15 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5344b4d-b6dc-4b2d-94df-d422464ddca7")
-		(property "Reference" "U6"
-			(at 56.515 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VNLD5090-E"
-			(at 56.515 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "VNLD5090-E:VNLD5090-E"
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 54.61 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f8bed27-413a-4756-943e-4a88d3fa7586")
-		)
-		(pin "3"
-			(uuid "9cc98a19-4e36-4943-b864-6845cd7eaf09")
-		)
-		(pin "1"
-			(uuid "ecc3e5fd-b517-4e54-acf8-c80c0b2736b0")
-		)
-		(pin "5"
-			(uuid "9cf620dd-6746-4eba-8774-48464bb5f300")
-		)
-		(pin "7"
-			(uuid "95b25a4e-022b-4fc9-b1fe-a816818e204a")
-		)
-		(pin "6"
-			(uuid "44bfa5af-074a-4293-8443-6d7e9c236b74")
-		)
-		(pin "8"
-			(uuid "2fa82a2a-5414-47ac-a078-5bfe6ecbeaad")
-		)
-		(pin "4"
-			(uuid "0efa1f2d-47b2-462f-81b3-8eeddbc67995")
-		)
-		(instances
-			(project "EP91Starlet"
-				(path "/10fbc709-889c-4565-8161-129ca9f0b73f"
-					(reference "U6")
 					(unit 1)
 				)
 			)
